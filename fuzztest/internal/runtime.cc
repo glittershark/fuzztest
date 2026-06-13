@@ -89,7 +89,7 @@ using ::fuzztest::domain_implementor::MutationMetadata;
 using ::fuzztest::domain_implementor::PrintMode;
 using ::fuzztest::domain_implementor::RawSink;
 
-constexpr size_t kValueMaxPrintLength = 2048;
+constexpr size_t kValueMaxPrintLength = 20000;
 constexpr absl::string_view kTrimIndicator = " ...<value too long>";
 constexpr absl::string_view kReproducerDirName = "fuzztest_repro";
 
